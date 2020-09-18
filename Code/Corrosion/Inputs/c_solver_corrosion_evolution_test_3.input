@@ -1,0 +1,17 @@
+[c_solver_corrosion_evolution]
+model = Seyeux_2010
+temperature_in_K = 603
+pH_temperature = 7.2
+x_Cr = 0.3
+x_Fe = 0.10
+x_Ni = 0.58
+time_in_seconds = 36000.
+save_history = True
+output_file_name = c_solver_corrosion_evolution_test_3.output
+alpha = 0.5
+DV = 0.5
+F_0f = 10.
+F_0mf = 0.2
+F_0fs = 0.2
+D_vO = 1e-19
+DG1 = 100000.

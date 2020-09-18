@@ -1,0 +1,18 @@
+[c_solver_corrosion_evolution]
+model = Leistner_2012
+temperature_in_K = 603
+pH_temperature = 7.2
+x_Cr = 0.32
+x_Fe = 0.10
+x_Ni = 0.58
+time_in_seconds = 7776000.
+F_0f = 0.1
+alpha = 0.5
+decay_length = 5.e-8
+F_0mf = 0.001
+DV = 0.01
+F_0fs = 0.3
+D_vO = 5.3e-23
+DG1 = -1.5e+04
+save_history = True
+output_file_name = c_solver_corrosion_evolution_test_4.output
